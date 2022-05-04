@@ -1,0 +1,82 @@
+body{
+    background: rgb(2, 35, 55);
+}
+
+#canvas{
+    box-sizing:border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(112, 1, 71);
+    width: 900px;
+    height: 300px;
+    margin: 50px auto;
+    border-radius: 10px;
+    border-color: brown;
+}
+#canvas1{
+    box-sizing:border-box;
+    display: flex;
+    font-size: 50px;
+    color: azure;
+    align-items: center;
+    justify-content: center;
+    background: rgb(112, 1, 71);
+    width: 900px;
+    height: 300px;
+    margin: 50px auto;
+    border-radius: 10px;
+    border-color: brown;
+}
+
+#primary-number, #secondary-number{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    width: 125px;
+    height: 125px;
+    box-sizing: border-box;
+}
+
+#primary-number{
+    border: solid 4px rgb(6, 243, 6);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+#secondary-number{
+    border: solid 4px rgb(6, 243, 6);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+#add, #equal{
+    font-weight: bold;
+    font-size: 40px;
+    padding: 5px;
+    color: blanchedalmond;
+}
+input{
+    border: solid 2px cyan;
+    width: 200px;
+    height: 50px;
+    padding-left: 25px; 
+    border-radius: 5px;
+    font-size: 40px;
+
+}
+
+button{
+    width: 150px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 26px;
+    background: rgb(2, 35, 55);
+    color: white;
+    border: 1px solid lightgrey;
+
+}
+
